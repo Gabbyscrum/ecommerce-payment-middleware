@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ecommerce-payment-middleware", "ecommerce-payment-middleware\ecommerce-payment-middleware.pyproj", "{6AE7464D-CD3E-41B4-A5F2-5CEC72BB12A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AE7464D-CD3E-41B4-A5F2-5CEC72BB12A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE7464D-CD3E-41B4-A5F2-5CEC72BB12A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A158CC1F-7AD5-4A3F-A491-E846105E2F12}
+	EndGlobalSection
+EndGlobal
