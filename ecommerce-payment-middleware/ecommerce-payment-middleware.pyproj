@@ -24,6 +24,7 @@
     <Compile Include="core\config.py" />
     <Compile Include="core\exceptions.py" />
     <Compile Include="core\idempotency.py" />
+    <Compile Include="core\logging.py" />
     <Compile Include="ecommerce_payment_middleware.py" />
   </ItemGroup>
   <ItemGroup>
