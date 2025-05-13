@@ -28,6 +28,7 @@
     <Compile Include="providers\base.py" />
     <Compile Include="providers\mock.py" />
     <Compile Include="ecommerce_payment_middleware.py" />
+    <Compile Include="providers\stripe.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
