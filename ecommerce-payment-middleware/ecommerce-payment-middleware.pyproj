@@ -25,7 +25,8 @@
     <Compile Include="core\exceptions.py" />
     <Compile Include="core\idempotency.py" />
     <Compile Include="core\logging.py" />
-    <Compile Include="core\mock.py" />
+    <Compile Include="providers\base.py" />
+    <Compile Include="providers\mock.py" />
     <Compile Include="ecommerce_payment_middleware.py" />
   </ItemGroup>
   <ItemGroup>
