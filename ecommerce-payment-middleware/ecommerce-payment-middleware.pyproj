@@ -30,6 +30,7 @@
     <Compile Include="ecommerce_payment_middleware.py" />
     <Compile Include="providers\stripe.py" />
     <Compile Include="services\payment_service.py" />
+    <Compile Include="storage\repository.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
