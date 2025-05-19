@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\api\schemas.py" />
     <Compile Include="core\config.py" />
     <Compile Include="core\exceptions.py" />
     <Compile Include="core\idempotency.py" />
