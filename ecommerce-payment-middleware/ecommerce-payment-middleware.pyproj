@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app\api\routes\payments.py" />
+    <Compile Include="app\api\routes\webhooks.py" />
     <Compile Include="app\api\schemas.py" />
     <Compile Include="core\config.py" />
     <Compile Include="core\exceptions.py" />
