@@ -25,6 +25,7 @@
     <Compile Include="app\api\routes\payments.py" />
     <Compile Include="app\api\routes\webhooks.py" />
     <Compile Include="app\api\schemas.py" />
+    <Compile Include="app\main.py" />
     <Compile Include="core\config.py" />
     <Compile Include="core\exceptions.py" />
     <Compile Include="core\idempotency.py" />
