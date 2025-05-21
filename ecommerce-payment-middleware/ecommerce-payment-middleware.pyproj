@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\api\routes\health.py" />
     <Compile Include="app\api\routes\payments.py" />
     <Compile Include="app\api\routes\webhooks.py" />
     <Compile Include="app\api\schemas.py" />
