@@ -1,11 +1,17 @@
-from pydantic import BaseSettings
+
+
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    APP_NAME: str = "Payment Middleware"
-    API_KEY: str = "dev_key"
+    APP_NAME: str = "Ecommerce Payment Middleware"
+    ENV: str = "dev"
+    
+    # Providers
+    STRIPE_SECRET_KEY: str | None = None
+    PAYSTACK_SECRET_KEY: str | None = None
 
-    STRIPE_SECRET_KEY: str = ""
-    STRIPE_WEBHOOK_SECRET: str = ""
+    # Security
+    API_KEY: str | None = None
 
     class Config:
         env_file = ".env"
