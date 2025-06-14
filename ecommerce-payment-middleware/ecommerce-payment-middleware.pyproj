@@ -51,6 +51,7 @@
     <Folder Include="providers\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".env" />
     <Content Include=".env.example" />
     <Content Include="CONTRIBUTING.md" />
     <Content Include="LICENCE" />
