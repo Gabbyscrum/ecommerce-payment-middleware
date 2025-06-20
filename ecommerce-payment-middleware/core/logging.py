@@ -9,3 +9,12 @@ class PaymentProvider(ABC):
     @abstractmethod
     def verify_webhook(self, headers: dict, body: bytes) -> bool:
         pass
+
+    import logging
+
+logging.basicConfig(
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    level=logging.INFO
+)
+
+logger = logging.getLogger("middleware")
