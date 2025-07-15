@@ -31,6 +31,7 @@
     <Compile Include="core\idempotency.py" />
     <Compile Include="core\logging.py" />
     <Compile Include="middleware\auth.py" />
+    <Compile Include="middleware\health.py" />
     <Compile Include="middleware\request_id.py" />
     <Compile Include="providers\base.py" />
     <Compile Include="providers\mock.py" />
