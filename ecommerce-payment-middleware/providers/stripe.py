@@ -31,3 +31,22 @@ class StripeProvider(PaymentProvider):
             return True
         except Exception:
             return False
+
+        import stripe
+from app.providers.base import PaymentProvider
+from app.core.config import settings
+
+stripe.api_key = settings.STRIPE_SECRET_KEY
+
+class StripeProvider(PaymentProvider):
+    async def charge(self, amount, currency, source):
+        payment = stripe.PaymentIntent.create(
+            amount=int(amount * 100),
+            currency=currency,
+            payment_method=source,
+            confirm=True,
+        )
+        return payment
+
+    async def verify(self, reference):
+        return stripe.PaymentIntent.retrieve(reference)
