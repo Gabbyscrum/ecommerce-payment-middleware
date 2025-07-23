@@ -14,3 +14,14 @@ class MockProvider(PaymentProvider):
 
     def verify_webhook(self, headers, body):
         return True
+    from fastapi import APIRouter
+from app.providers import get_provider
+
+router = APIRouter(prefix="/payments")
+
+@router.post("/charge")
+async def charge(payload: dict):
+    provider = get_provider(payload.get("provider"))
+    return await provider.charge(
+        payload["amount"], payload["currency"], payload["source"]
+    )
